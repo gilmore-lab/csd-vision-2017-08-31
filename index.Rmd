@@ -1,0 +1,330 @@
+---
+title: "How works, how it develops, and why you should care"
+author: "Rick O. Gilmore"
+date: "`r Sys.time()`"
+output:
+  revealjs::revealjs_presentation:
+    self_contained: false
+    lib_dir: libs
+    incremental: false
+    theme: simple
+    transition: none
+    reveal_plugins: ["notes", "zoom"]
+    reveal_options:
+      slideNumber: true
+      previewLinks: false
+      center: false
+      touch: true
+  ioslides_presentation:
+    widescreen: true
+---
+
+```{r setup, include=FALSE}
+if(!("revealjs" %in% installed.packages()[,1])) {
+  install.packages("revealjs")
+  require("revealjs")}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Preliminaries
+
+## About me
+
+- B.A., Cognitive Science, Brown University
+- M.S. & Ph.D., Psychology (Cognitive Neuroscience), Carnegie Mellon University
+- Human brain development, perception & action, computational modeling, machine vision, big data, open science
+- Founding Director of Human Imaging, Penn State Social, Life & Engineering Sciences Imaging Center (SLEIC)
+- Co-Founder/Co-Director of Databrary.org data library
+- [gilmore-lab.github.io](http://gilmore-lab.github.io)
+- banjo player, actor, cyclist, backpacker, poet, ham (K3ROG), native Coloradoan
+
+## Agenda
+
+- What's vision for?
+- Properties of light
+- The visual eye and brain
+- Measuring the development of visual perception
+
+# What's vision for?
+
+## Behavioral priorities
+
+- Reproduce
+- Avoid harm
+- Eat & drink
+
+## Behavioral primitives
+
+- Locomotion
+- Object interaction/manipulation
+- Communication
+
+## Vision answers
+
+- Where things are; where they're moving; where/how I'm moving
+- What's out there
+- How should I respond
+
+## Vision informs about
+
+- Geometry and motion of objects and surfaces
+- Surface properties (color, texture, rigidity)
+- Object properties (animate/inanimate; familiar/un-; person/animal...)
+
+# Properties of light
+
+## Other kinds of sensory channels
+
+## Light
+
+- Electromagnetic (EM) radiation
+- Wavelength (1/frequency) and intensity
+
+---
+
+<div class="centered">
+<p><a href="https://commons.wikimedia.org/wiki/File:EM_Spectrum_Properties_edit.svg#/media/File:EM_Spectrum_Properties_edit.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/EM_Spectrum_Properties_edit.svg/1200px-EM_Spectrum_Properties_edit.svg.png" alt="EM Spectrum Properties edit.svg"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Inductiveload" title="User:Inductiveload">Inductiveload</a>, <a rel="nofollow" class="external text" href="http://mynasadata.larc.nasa.gov/images/EM_Spectrum3-new.jpg">NASA</a> - self-made, information by NASA
+Based off of <a href="//commons.wikimedia.org/wiki/File:EM_Spectrum3-new.jpg" title="File:EM Spectrum3-new.jpg">File:EM_Spectrum3-new.jpg</a> by NASA
+The butterfly icon is from the P icon set, <a href="//commons.wikimedia.org/wiki/File:P_biology.svg" title="File:P biology.svg">P biology.svg</a>
+The humans are from the Pioneer plaque, <a href="//commons.wikimedia.org/wiki/File:Human.svg" title="File:Human.svg">Human.svg</a>
+The buildings are the Petronas towers and the Empire State Buildings, both from <a href="//commons.wikimedia.org/wiki/File:Skyscrapercompare.svg" title="File:Skyscrapercompare.svg">Skyscrapercompare.svg</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=2974242">Link</a></p>
+</div>
+
+---
+
+<div class="centered">
+Reflects off surfaces to different degrees
+
+<img src="http://www.cns.nyu.edu/~david/courses/perception/lecturenotes/color/color-slides/Slide14.jpg">
+</div>
+
+---
+
+<div class="centered">
+Skin color differences different patterns of light reflection.
+
+<img src="https://sites.google.com/site/obeluwa/_/rsrc/1372214890170/skin/introduction-to-diffuse-reflectance-spectroscopy/sample-spectra.png">
+</div>
+
+---
+
+
+<div class="centered">
+Refracted (bent) by some substances
+
+<img src="https://www.sciencelearn.org.nz/system/images/images/000/000/050/embed/Converging-lens20150805-30610-9sjoqh.jpg?1447040428">
+</div>
+
+---
+
+## Light
+
+- Provides fast (2.99 million m/s; 186 million mi/hr) information about surfaces at a distance
+- vs. sound (340 m/s; 767 mi/hr)
+- vs. chemical signals (min/mi)
+
+---
+
+<div class="centered">
+<img src="http://thebrain.mcgill.ca/flash/a/a_02/a_02_p/a_02_p_vis/a_02_p_vis_1p.jpg">
+</br>
+<img src="http://thebrain.mcgill.ca/flash/a/a_02/a_02_p/a_02_p_vis/a_02_p_vis_1q.jpg">
+</br>
+
+[The Brain from top to bottom](http://thebrain.mcgill.ca/flash/a/a_02/a_02_cr/a_02_cr_vis/a_02_cr_vis.html)
+</div>
+
+# The visual eye and brain
+
+## The eye
+
+<div class="centered">
+<img src="https://hmslade5.files.wordpress.com/2012/03/anatomy-of-the-eye.jpg">
+</div>
+
+<div class="notes">
+This figure shows the gross anatomy of the eye.
+</div>
+
+## as an auto-focus, auto-exposure camera...
+
+<div class="centered">
+<img src="http://www.optilase.com/wp-content/uploads/2014/12/camera-lens-eye-lens.jpg">
+</div>
+
+## The retina
+
+<div class="centered">
+<img src="http://www.feinberg.northwestern.edu/gfx/news/retina.jpg">
+</div>
+
+## Photoreceptors
+
+<div class="centered">
+<p><a href="https://commons.wikimedia.org/wiki/File:1416_Color_Sensitivity.jpg#/media/File:1416_Color_Sensitivity.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/1416_Color_Sensitivity.jpg/1200px-1416_Color_Sensitivity.jpg" alt="1416 Color Sensitivity.jpg"></a><br>By OpenStax College - Anatomy &amp; Physiology, Connexions Web site. <a rel="nofollow" class="external free" href="http://cnx.org/content/col11496/1.6/">http://cnx.org/content/col11496/1.6/</a>, Jun 19, 2013., <a href="http://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30148003">Link</a></p>
+</div>
+
+---
+
+<div class="centered">
+<img src="<p><a href="https://commons.wikimedia.org/wiki/File:ConeMosaics.jpg#/media/File:ConeMosaics.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/ConeMosaics.jpg" alt="ConeMosaics.jpg"></a><br>By Mark Fairchild, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=32075732">Link</a></p>"
+</div>
+
+---
+
+<div class="centered">
+<img src="<p><a href="https://commons.wikimedia.org/wiki/File:Human_photoreceptor_distribution.svg#/media/File:Human_photoreceptor_distribution.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Human_photoreceptor_distribution.svg/1200px-Human_photoreceptor_distribution.svg.png" alt="Human photoreceptor distribution.svg"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Cmglee" title="User:Cmglee">Cmglee</a> - <span class="int-own-work" lang="en" xml:lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=29924570">Link</a></p>"
+</div>
+
+## Photoreceptor information processing
+
+- Separate channels for short, medium, long wavelengths (cones): chromatic
+- Black/gray/white or overall illumination (rods): achromatic
+- Point by point, topographic image
+- Focused, except...
+
+---
+
+<div class="centered">
+<img src="https://ecpbuilder.com/wp-content/uploads/sites/530/2015/10/myopia.jpg">
+</div>
+
+---
+
+<div class="centered">
+<img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/media/medical/hw/hwkb17_012_08.jpg">
+</div>
+
+## The brain
+
+<div class="centered">
+<img src="http://mybrainnotes.com/brain-visual-areas-2.jpg">
+</div>
+
+## Pathway
+
+- Retina
+- Thalamus
+- Primary visual cortex (V1) in occipital lobe
+
+---
+
+<div class="centered">
+<img src="https://cdn.theconversation.com/files/139134/width754/image-20160926-13523-17pujyt.png">
+</div>
+
+## Retinotopic map
+
+<div class="centered">
+<img src="http://jov.arvojournals.org/data/Journals/JOV/933499/jov-3-10-1-fig001.jpeg">
+</div>
+
+## Visual processing dominates the primate brain
+
+<div class="centered">
+<img src="http://www.cse.yorku.ca/~billk/images/brainMap.gif">
+</div>
+
+# Measuring visual function and its development
+
+## Psychophysical functions
+
+<div class="centered">
+<img src="http://www.intropsych.com/ch04_senses/04stevenscurves.jpg"
+</div>
+
+## Psychophysical methods
+
+- Method of constants (fixed levels)
+- Method of adjustment
+- Method of limits ("can you see me now? now?")
+    - Often use staircases
+
+## Psychophysiological functions
+
+<div class="centered">
+<img src="http://www.nature.com/pr/journal/v60/n4/images/pr2006267f3.jpg">
+
+[@Mirabella2006-ro]
+</div>
+
+## Acuity
+
+- Grating acuity
+- Vernier
+- Symbol/letter (optotype) acuity
+
+---
+
+<div class="centered">
+<img src="https://images.nature.com/full/nature-assets/pr/journal/v60/n4/images/pr2006267f1.jpg">
+</div>
+
+---
+
+<div class="centered">
+<img src="https://s3.amazonaws.com/cdn.bernell.com/images/uploads/712_4817_thumb.jpg">
+</br>
+<img src="https://www.researchgate.net/profile/Bruce_Moore2/publication/8914389/figure/fig2/AS:277913116135426@1443271058097/Fig-2-Lea-Symbols-distance-visual-acuity-chart.png">
+</div>
+
+## Contrast sensitivity
+
+- Light/dark ratio vs. spatial frequency (level of detail)
+
+---
+
+<div class="centered">
+<img src="https://www.nde-ed.org/EducationResources/CommunityCollege/PenetrantTest/Graphics/CSFchart640x480.jpg">
+</div>
+
+---
+
+<div class="centered">
+<img src="http://jov.arvojournals.org/data/Journals/JOV/933685/m_i1534-7362-14-13-16-f01.png">
+</div>
+
+## Color
+
+## Temporal vision
+
+## Motion
+
+# The big picture
+
+---
+
+<div class="centered">
+<img src="http://www.perkinselearning.org/sites/elearning.perkinsdev1.org/files/u2583/rectangular%20cards.jpg">
+</div>
+
+---
+
+> "For me, one of the major attractions of visual science is the **promise it holds for empirical attacks on the mind-body problem**—that is, for working out meaningful ways to explain psychophysically defined visual functions on the basis of properties of the neural substrate. A critical locus or critical computation for a particular perceptual function can be defined as an anatomic or computational stage at which information concerning that function is lost or importantly reorganized; or more poetically, as a stage or computation that leaves its mark on that perceptual capacity."
+
+Davida Teller
+
+---
+
+> "Part of the appeal of visual development is its potential for extending this promise. **Visual functions mature because the visual substrate matures**, and the causes of functional maturation undoubtedly lie in neural maturation. But the length of the big toe matures too, and we do not see it as causal in relation to the development of grating acuity. The puzzle is, **which of the many immaturities of the visual substrate provide the critical immaturities** that limit a particular visual capacity at a particular age?"
+
+Davida Teller
+
+## Other things change, too...
+
+<!-- Add Gilmore, Raudies... -->
+
+# Thank you!
+
+## Stack
+
+This talk was produced on `r Sys.Date()` in [RStudio Server Pro](http://rstudio.com) using R Markdown and the reveal.JS framework on Penn State's [ACI-ICS RStudio Server Pro instance](http://rstudio.aci.ics.psu.edu).
+The code and materials used to generate the slides may be found at <https://github.com/gilmore-lab/csd-vision-2017-08-31/>.
+Information about the R Session that produced the code is as follows:
+
+```{r session-info}
+sessionInfo()
+```
+
+---
+
