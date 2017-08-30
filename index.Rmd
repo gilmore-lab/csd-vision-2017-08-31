@@ -2,6 +2,7 @@
 title: "How works, how it develops, and why you should care"
 author: "Rick O. Gilmore"
 date: "`r Sys.time()`"
+bibliography: refs.bib
 output:
   revealjs::revealjs_presentation:
     self_contained: false
@@ -75,6 +76,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Other kinds of sensory channels
 
+| Informal name | Source                            |
+|---------------|-----------------------------------|
+| Vision        | Electromagnetic radiation               |
+| Audition      | Mechanical vibration in air/water       |
+| Touch         | Mechanical vibration of skin on surface |
+| Vestibular    | Rotation & linear acceleration of head  |
+| Olfaction     | Chemical patterns in air/water          |
+| Gustation     | Chemical patterns in mouth              |
+| Electroception | Electromagnetic radiation              |
+| Magnetoreception | Electromagnetic radiation patterns   |
+| Kinesthesia      | Position, velocity, acceleration of limbs, body |
+
 ## Light
 
 - Electromagnetic (EM) radiation
@@ -123,7 +136,7 @@ Refracted (bent) by some substances
 - vs. sound (340 m/s; 767 mi/hr)
 - vs. chemical signals (min/mi)
 
----
+## Projects images that relate to shape/orientation
 
 <div class="centered">
 <img src="http://thebrain.mcgill.ca/flash/a/a_02/a_02_p/a_02_p_vis/a_02_p_vis_1p.jpg">
@@ -158,6 +171,10 @@ This figure shows the gross anatomy of the eye.
 <img src="http://www.feinberg.northwestern.edu/gfx/news/retina.jpg">
 </div>
 
+## Samples light intensity, wavelength, and spatial pattern in a small number of categories
+
+- Photoreceptors
+
 ## Photoreceptors
 
 <div class="centered">
@@ -173,7 +190,7 @@ This figure shows the gross anatomy of the eye.
 ---
 
 <div class="centered">
-<img src="<p><a href="https://commons.wikimedia.org/wiki/File:Human_photoreceptor_distribution.svg#/media/File:Human_photoreceptor_distribution.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Human_photoreceptor_distribution.svg/1200px-Human_photoreceptor_distribution.svg.png" alt="Human photoreceptor distribution.svg"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Cmglee" title="User:Cmglee">Cmglee</a> - <span class="int-own-work" lang="en" xml:lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=29924570">Link</a></p>"
+<img src="<p><a href="https://commons.wikimedia.org/wiki/File:Human_photoreceptor_distribution.svg#/media/File:Human_photoreceptor_distribution.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Human_photoreceptor_distribution.svg/1200px-Human_photoreceptor_distribution.svg.png" alt="Human photoreceptor distribution.svg" height=500px></a><br>By <a href="//commons.wikimedia.org/wiki/User:Cmglee" title="User:Cmglee">Cmglee</a> - <span class="int-own-work" lang="en" xml:lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=29924570">Link</a></p>"
 </div>
 
 ## Photoreceptor information processing
@@ -181,27 +198,30 @@ This figure shows the gross anatomy of the eye.
 - Separate channels for short, medium, long wavelengths (cones): chromatic
 - Black/gray/white or overall illumination (rods): achromatic
 - Point by point, topographic image
+- Non-uniform resolution
+    - Better in center
+    - Worse in periphery
 - Focused, except...
 
 ---
 
 <div class="centered">
-<img src="https://ecpbuilder.com/wp-content/uploads/sites/530/2015/10/myopia.jpg">
+<img src="https://ecpbuilder.com/wp-content/uploads/sites/530/2015/10/myopia.jpg" height=550px>
 </div>
 
 ---
 
 <div class="centered">
-<img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/media/medical/hw/hwkb17_012_08.jpg">
+<img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/media/medical/hw/hwkb17_012_08.jpg" height=550px>
 </div>
 
-## The brain
+## The visual brain
 
 <div class="centered">
-<img src="http://mybrainnotes.com/brain-visual-areas-2.jpg">
+<img src="http://mybrainnotes.com/brain-visual-areas-2.jpg" height=500px>
 </div>
 
-## Pathway
+## Primay pathway
 
 - Retina
 - Thalamus
@@ -230,20 +250,21 @@ This figure shows the gross anatomy of the eye.
 ## Psychophysical functions
 
 <div class="centered">
-<img src="http://www.intropsych.com/ch04_senses/04stevenscurves.jpg"
+<img src="http://www.intropsych.com/ch04_senses/04stevenscurves.jpg" height=500px>
 </div>
 
 ## Psychophysical methods
 
 - Method of constants (fixed levels)
 - Method of adjustment
+    - Raise/lower amplitude until detectable/indetectable
 - Method of limits ("can you see me now? now?")
     - Often use staircases
 
 ## Psychophysiological functions
 
 <div class="centered">
-<img src="http://www.nature.com/pr/journal/v60/n4/images/pr2006267f3.jpg">
+<img src="http://www.nature.com/pr/journal/v60/n4/images/pr2006267f3.jpg" height=500px>
 
 [@Mirabella2006-ro]
 </div>
@@ -263,9 +284,17 @@ This figure shows the gross anatomy of the eye.
 ---
 
 <div class="centered">
+Similar rates of development across primate species
+</br>
+<img src="http://www.jneurosci.org/content/jneuro/36/45/11384/F2.large.jpg" height=550px>
+</div>
+
+---
+
+<div class="centered">
 <img src="https://s3.amazonaws.com/cdn.bernell.com/images/uploads/712_4817_thumb.jpg">
 </br>
-<img src="https://www.researchgate.net/profile/Bruce_Moore2/publication/8914389/figure/fig2/AS:277913116135426@1443271058097/Fig-2-Lea-Symbols-distance-visual-acuity-chart.png">
+<img src="https://www.researchgate.net/profile/Bruce_Moore2/publication/8914389/figure/fig2/AS:277913116135426@1443271058097/Fig-2-Lea-Symbols-distance-visual-acuity-chart.png" height=550px>
 </div>
 
 ## Contrast sensitivity
@@ -275,7 +304,7 @@ This figure shows the gross anatomy of the eye.
 ---
 
 <div class="centered">
-<img src="https://www.nde-ed.org/EducationResources/CommunityCollege/PenetrantTest/Graphics/CSFchart640x480.jpg">
+<img src="https://www.nde-ed.org/EducationResources/CommunityCollege/PenetrantTest/Graphics/CSFchart640x480.jpg" height=550px>
 </div>
 
 ---
@@ -284,11 +313,79 @@ This figure shows the gross anatomy of the eye.
 <img src="http://jov.arvojournals.org/data/Journals/JOV/933685/m_i1534-7362-14-13-16-f01.png">
 </div>
 
-## Color
+---
 
-## Temporal vision
+<div class="centered">
+Similar rates of development across primate species
 
-## Motion
+<img src="http://www.jneurosci.org/content/jneuro/36/45/11384/F3.large.jpg" height=550px>
+
+[@Kiorpes2016-ut]
+</div>
+
+---
+
+<div class="centered">
+Effects of poor contrast sensitivity on newborn vision
+
+<img src="http://www.jneurosci.org/content/jneuro/36/45/11384/F4.large.jpg" height=550px>
+
+[@Kiorpes2016-ut]
+</div>
+
+## Rate of development varies across visual functions
+
+- Some (e.g., motion sensitivity) not adult-like until early teens
+
+---
+
+<div class="centered">
+<img src="http://www.jneurosci.org/content/jneuro/36/45/11384/F5.large.jpg" height=550px>
+
+[@Kiorpes2016-ut]
+</div>
+
+## Atypical development: Amblyopia
+
+- **Amblyopia**: Reduced visual acuity in one or both eyes relative to the other without an obvious 
+defect or change in the eye
+    - **Strabismus**: Misalignment of the eyes
+    - **Anisometropia**: Difference in refractive power
+    
+---
+
+<div class="centered">
+<img src="http://www.jneurosci.org/content/jneuro/36/45/11384/F7.large.jpg" width=800px>
+
+[@Kiorpes2016-ut]
+</div>
+
+## Atypical development: Prematurity
+
+<div class="centered">
+Some (binocular functions) are experience-dependent, others are not
+
+<img src="http://www.pnas.org/content/109/27/11049/F2.medium.gif">
+
+[@Jando2012-zt]
+</div>
+
+---
+
+<div class="centered">
+Others (pattern/contrast reversal) are not
+
+<img src="http://www.pnas.org/content/109/27/11049/F3.medium.gif"
+[@Jando2012-zt]
+</div>
+
+## Atypical development: Cataract {.smaller}
+
+<div class="centered">
+<img src="https://d2ufo47lrtsv5s.cloudfront.net/content/sci/286/5437/108/F3.large.jpg?width=800&height=600&carousel=1" height=500px>
+
+[@Maurer1999-yz]
+</div>
 
 # The big picture
 
@@ -312,7 +409,149 @@ Davida Teller
 
 ## Other things change, too...
 
-<!-- Add Gilmore, Raudies... -->
+## Simulating effects of posture change on motion
+
+| Parameter | Crawling Infant | Walking Infant |
+|-----------|-----------------|----------------|
+| Eye height| 0.30 m          | 0.60 m         |
+| Locomotor speed | 0.33 m/s  | 0.61 m/s       |
+| Head tilt | 20 deg          | 9 deg          |
+
+<div class="centered">
+</br>
+<img src="https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/kretch-etal.png" width=600px/>
+</br>
+<small>
+[Kretch et al., 2014](http://dx.doi.org/10.1111/cdev.12206)
+</small>
+</div>
+
+## Simulating Flow Fields {.flexbox .vcenter .smaller}
+
+<div class="centered">
+<img src='https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/simulation-flow-patterns.png' width=800px/>
+</br>
+<small>
+[Gilmore et al, 2015](http://doi.org/10.1109/DEVLRN.2015.7345450)
+</small>
+</div>
+
+## Flow Direction Distributions by Geometry & Posture {.smaller}
+
+<div class="centered">
+<img src='https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/simulation-flow-direction-hist.png' width=600px/>
+</br>
+<small>
+[Gilmore et al, 2015](http://doi.org/10.1109/DEVLRN.2015.7345450)
+</small>
+</div>
+
+## Simulated Flow Speeds (m/s) {.flexbox .vcenter}
+
+<div class="centered">
+| Type of Locomotion | Ground Plane | Room | Side Wall | Two Walls |
+|--------------------|--------------|------|-----------|-----------|
+| Crawling           | 14.41        | 14.42| 14.43     |14.62      |
+| Walking            | 9.38         | 8.56 | 7.39      |9.18       |
+
+</div>
+
+## But, what's the input? The *real* input?
+
+---
+
+<div class="centered">
+<video width="750" height="450" controls>
+  <source src="https://nyu.databrary.org/slot/7740/0,24634/asset/16751/download?inline=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</br>
+<small>
+([Gilmore et al., 2015](http://doi.org/10.17910/B7.116))
+</small>
+</div>
+
+<div class="notes">
+What if I had first-person, observer's-eye views of what infants saw...
+</div>
+
+---
+
+<div class="centered">
+<video data-autoplay width="750" height="450" controls>
+  <source src="https://nyu.databrary.org/slot/7740/0,24200/asset/16753/download?inline=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</br>
+<small>([Gilmore et al., 2015](http://doi.org/10.17910/B7.116))</small>
+</div>
+
+<div class="notes">
+And what mothers' saw while they moved together through the very same environment?
+</div>
+
+---
+
+<div class="centered">
+<img src="https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/mom-baby-carrier.jpg" height=350px>
+</br>
+<small>
+([Adolph, 2015](http://doi.org/10.17910/B7.123))
+</small>
+</div>
+
+## Frame-by-frame video analysis
+
+<div class="centered"> 
+<video width="640" height="480" controls>
+  <source src="https://nyu.databrary.org/slot/11680/0,24500/asset/41871/download?inline=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<small>
+([Jayaraman et al., 2015](http://doi.org/10.17910/B7988V))
+</small>
+</div>
+
+<div class="notes">
+</div>
+
+---
+
+<div class="centered">
+<video width="640" height="480" controls>
+  <source src="https://nyu.databrary.org/slot/11680/25500,50000/asset/41873/download?inline=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+
+---
+
+<div class="centered">
+<video width="640" height="480" controls>
+  <source src="https://nyu.databrary.org/slot/11680/51000,75500/asset/41875/download?inline=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+
+## Findings {.smaller}
+
+<div class="centered">
+<img src="https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/optic-flow-locomotion.jpg" height=500px>
+
+<small>
+([Raudies & Gilmore, 2014](http://doi.org/10.1162/NECO_a_00645))
+</small>
+</div>
+
+## Findings
+
+- Infant (passengers) experience faster visual speeds than mother
+- Controlling for speed of locomotion, environment
+- Motion "priors" for infants ≠ mothers
+
+## Summing up...
+
+- Vision develops rapidly, but asymptotes slowly
 
 # Thank you!
 
