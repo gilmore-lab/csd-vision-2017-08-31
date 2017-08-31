@@ -1,5 +1,5 @@
 ---
-title: "How works, how it develops, and why you should care"
+title: "Vision: How works, how it develops, and why you should care"
 author: "Rick O. Gilmore"
 date: "`r Sys.time()`"
 bibliography: refs.bib
@@ -163,6 +163,12 @@ This figure shows the gross anatomy of the eye.
 
 <div class="centered">
 <img src="http://www.optilase.com/wp-content/uploads/2014/12/camera-lens-eye-lens.jpg">
+</div>
+
+## self-stabilizing...
+
+<div class="centered">
+<img src="http://i.imgur.com/MbuGlD2.mp4" height=500px>
 </div>
 
 ## The retina
