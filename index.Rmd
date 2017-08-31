@@ -114,7 +114,7 @@ Reflects off surfaces to different degrees
 ---
 
 <div class="centered">
-Skin color differences different patterns of light reflection.
+Perceived color differences correspond to different patterns of light reflection.
 
 <img src="https://sites.google.com/site/obeluwa/_/rsrc/1372214890170/skin/introduction-to-diffuse-reflectance-spectroscopy/sample-spectra.png">
 </div>
@@ -173,12 +173,16 @@ This figure shows the gross anatomy of the eye.
 
 ## Samples light intensity, wavelength, and spatial pattern in a small number of categories
 
-- Photoreceptors
-
 ## Photoreceptors
 
 <div class="centered">
 <p><a href="https://commons.wikimedia.org/wiki/File:1416_Color_Sensitivity.jpg#/media/File:1416_Color_Sensitivity.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/1416_Color_Sensitivity.jpg/1200px-1416_Color_Sensitivity.jpg" alt="1416 Color Sensitivity.jpg"></a><br>By OpenStax College - Anatomy &amp; Physiology, Connexions Web site. <a rel="nofollow" class="external free" href="http://cnx.org/content/col11496/1.6/">http://cnx.org/content/col11496/1.6/</a>, Jun 19, 2013., <a href="http://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30148003">Link</a></p>
+</div>
+
+---
+
+<div class="centered">
+<img src="https://i.pinimg.com/originals/9f/08/85/9f0885d4c209d5275f631ac194eb4f4b.jpg" height=550px>
 </div>
 
 ---
@@ -230,6 +234,12 @@ This figure shows the gross anatomy of the eye.
 ---
 
 <div class="centered">
+<img src="https://i.stack.imgur.com/Go7pv.gif" height=500px>
+</div>
+
+---
+
+<div class="centered">
 <img src="https://cdn.theconversation.com/files/139134/width754/image-20160926-13523-17pujyt.png">
 </div>
 
@@ -269,7 +279,7 @@ This figure shows the gross anatomy of the eye.
 [@Mirabella2006-ro]
 </div>
 
-## Acuity
+## Acuity (detail/pattern vision)
 
 - Grating acuity
 - Vernier
@@ -333,6 +343,10 @@ Effects of poor contrast sensitivity on newborn vision
 [@Kiorpes2016-ut]
 </div>
 
+## Motion coherence (Signal vs. noise)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2DdlcdFeO9I" frameborder="0" allowfullscreen></iframe>
+
 ## Rate of development varies across visual functions
 
 - Some (e.g., motion sensitivity) not adult-like until early teens
@@ -345,12 +359,26 @@ Effects of poor contrast sensitivity on newborn vision
 [@Kiorpes2016-ut]
 </div>
 
+## Atypical development: Autism
+
+<div class="centered">
+<img src="https://www.researchgate.net/profile/Oliver_Braddick/publication/12345210/figure/fig1/AS:267699330744324@1440835902206/Figure-2-Motion-coherence-thresholds-for-autism-and-control-groups-The-mean-motion.png" height=500px>
+
+[@Spencer2000-is]
+</div>
+
 ## Atypical development: Amblyopia
 
 - **Amblyopia**: Reduced visual acuity in one or both eyes relative to the other without an obvious 
 defect or change in the eye
     - **Strabismus**: Misalignment of the eyes
     - **Anisometropia**: Difference in refractive power
+    
+---
+
+<div class="centered">
+<img src="http://cdna.allaboutvision.com/i/strabismus-199x300.jpg" height=500px>
+</div>
     
 ---
 
@@ -382,7 +410,13 @@ Others (pattern/contrast reversal) are not
 ## Atypical development: Cataract {.smaller}
 
 <div class="centered">
-<img src="https://d2ufo47lrtsv5s.cloudfront.net/content/sci/286/5437/108/F3.large.jpg?width=800&height=600&carousel=1" height=500px>
+<img src="http://cdna.allaboutvision.com/i/conditions-2016/congenital-cataract-baby-330x220.jpg" height = 500px>
+</div>
+
+---
+
+<div class="centered">
+<img src="https://d2ufo47lrtsv5s.cloudfront.net/content/sci/286/5437/108/F3.large.jpg?width=800&height=600&carousel=1" height=550px>
 
 [@Maurer1999-yz]
 </div>
